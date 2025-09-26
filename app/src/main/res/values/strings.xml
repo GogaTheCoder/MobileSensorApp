@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MobileSensorApp</string>
+    <string name="sensor_monitoring_active">Sensor Monitoring Active</string>
+    <string name="sendNow">Отправить сейчас</string>
+    <string name="uid">UID: —</string>
+    <string name="status">Статус: —</string>
+    <string name="count">Отправок: 0</string>
+    <string name="lastData">Последние данные:</string>
+    <string name="cleanFirebase">Очистить Firebase (тест)</string>
+    <string name="worker">Запустить воркер вручную</string>
+    <string name="sendByUser">Отправить данные вручную</string>
+    <string name="heart_rate">Heart Rate: -</string>
+    <string name="steps">Steps: -</string>
+    <string name="noise">Noise: -</string>
+</resources>

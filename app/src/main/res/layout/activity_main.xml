@@ -1,0 +1,89 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_send_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sendByUser" />
+
+        <Button
+            android:id="@+id/button_run_worker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/worker"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/uid_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uid"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/sent_count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/count"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/last_data_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lastData"
+            android:layout_marginTop="32dp"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tvHeartRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/heart_rate"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/steps"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvNoise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/noise"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+
+        <Button
+            android:id="@+id/button_clear_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cleanFirebase"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
+

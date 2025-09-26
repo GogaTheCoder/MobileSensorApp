@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "694869852700",
+    "project_id": "mobilesensorapp-d02c0",
+    "storage_bucket": "mobilesensorapp-d02c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694869852700:android:d8bdeb8f90cc86b44955d9",
+        "android_client_info": {
+          "package_name": "com.example.mobilesensorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm23vvteFNBXlKpOhP_kZNpgWtSDrANT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
