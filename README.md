@@ -142,7 +142,8 @@ data class SensorData(
 
 | Dashboard (текущие значения)              |
 | ----------------------------------------- |
-| ![screen1](docs/img/screen_dashboard.png) |
+| ![Uploading image.png…]()
+
 
 ---
 
